@@ -6,7 +6,7 @@ def count(lst, wd):
     return count
 
 
-file = open("input.txt", "r")
+file = open("input1.txt", "r")
 list = [eval(num) for num in file.readlines()]
 file.close()
 print(count(list,1))
