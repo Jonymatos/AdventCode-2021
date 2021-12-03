@@ -14,6 +14,9 @@ def position(inp, WithAim):
         elif command == 'down':
             depth += units * int(not WithAim)
             aim += units * int(WithAim)
+
+        else:
+            raise(TypeError, "Unknown Command")
             
     return horizontal * depth
 
