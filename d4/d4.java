@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
 
 /*This is possibly a spaghetti code, future changes might be done*/
 
@@ -30,8 +30,6 @@ public class d4 {
 
         }
         reader.close();
-
-        int res;
 
         part1:
         for (int i=0; i < _order.size(); i++){
@@ -84,6 +82,5 @@ public class d4 {
                 return;
             }
         }
-
     }
 }
